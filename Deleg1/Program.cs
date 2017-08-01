@@ -14,12 +14,12 @@ namespace Deleg1
         {
             if (y)
             {
-                //Console.WriteLine("Умножение");
+                Console.WriteLine("Умножение");
                 return a * b;
             }
             else 
             {
-                //Console.WriteLine("Сумма");
+                Console.WriteLine("Сумма");
                 return a + b;
             }
             
@@ -28,7 +28,7 @@ namespace Deleg1
         {
             Multiply M;
             M = Mult;
-            Console.WriteLine(M(45.3,34.7,false));
+            Console.WriteLine(M(45.3,34.7,true));
            
         }
     }
